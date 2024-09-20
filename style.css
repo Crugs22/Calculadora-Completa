@@ -1,8 +1,11 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body {
+    background: linear-gradient(220deg, #611c72, #232945);
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,16 +18,16 @@ body {
     background-color: rgb(31, 31, 31);
     padding:15px;
     margin: 0 auto;
-    height: 50vh;
     border-radius: 10px;
 }
 
-input {
+.screen {
     padding: 20px;
     background-color: rgb(39, 39, 39);
     border: 0;
     box-shadow: 1px, 1px, 3px rgba(165, 163, 163, 0.2);
     border-radius: 16px;
+    text-align: right;
 }
 
 .keyboard {
@@ -35,7 +38,6 @@ input {
 
 button {
     cursor: pointer;
-    padding: ;
     margin: 2px;
     width: 45px;
     height: 40px;
@@ -46,6 +48,7 @@ button {
 }
 
 .material-symbols-outlined {
+    cursor: pointer;
     position: relative;
     top: 8px;
     display: flex;
